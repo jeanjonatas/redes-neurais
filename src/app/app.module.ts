@@ -4,6 +4,10 @@ import {CardModule} from 'primeng/card';
 import {FileUploadModule} from 'primeng/fileupload'
 
 import { AppComponent } from './app.component';
+import {RedeNeuralService} from './service/rede-neural.service';
+import {HttpClientModule} from "@angular/common/http";
+import {MessagesModule} from 'primeng/messages';
+import {MessageModule} from 'primeng/message';
 
 
 @NgModule({
@@ -12,10 +16,13 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     CardModule,
-    FileUploadModule
+    FileUploadModule,
+    MessagesModule,
+    MessageModule
   ],
-  providers: [],
+  providers: [RedeNeuralService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
