@@ -1,0 +1,20 @@
+const IMAGENET_CLASSES = {
+  0: 'Ar_Condicionado',
+  1: 'Arvore',
+  2: 'Borracha',
+  3: 'Cadeira',
+  4: 'Calculadora',
+  5: 'Caneta_Lapiseira',
+  6: 'Carro',
+  7: 'Celular',
+  8: 'Copo',
+  9: 'Garrafa',
+  10: 'Janela',
+  11: 'Livro',
+  12: 'Mochila',
+  13: 'Monitor_TV',
+  14: 'Mouse_PC',
+  15: 'Notebook',
+  16: 'Pessoa',
+  17: 'Teclado_PC'
+};
