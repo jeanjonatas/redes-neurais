@@ -1,27 +1,15 @@
 # RedesNeurais
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4.
+Esse projeto tem como base demonstrar a aplicação de redes neurais convolucionais. Foi utilizado o [keras](https://keras.io/) para gerar a rede e utilizamos o [TensorFlowJS](https://js.tensorflow.org/) para executar a rede já treinada na aplicação.
 
-## Development server
+# Deploy Sever
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Para executar o programa, baixe os arquivos disponíveis em https://github.com/jeanjonatas/redes-neurais/tree/python ou abra a pasta do projeto já baixado.
 
-## Code scaffolding
+ - Linux : Caso esteja no linux, abra o terminal na pasta do projeto e digite `python server.py`
+ Após isso, abra o browser no endereço http://0.0.0.0:8000/ e envie uma imagem para ser analisada pela rede, o resultado aparecerá logo a seguir
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+ - Windows: Caso não tenha o python instalado, acesse https://www.python.org/downloads/windows/  e baixe a versão desejada de acordo com seu sistema. Após a instalação, abra o terminal na raiz do projeto e digite:
+ `python server.py`
+Após isso, abra o browser no endereço http://0.0.0.0:8000/ e envie uma imagem para ser analisada pela rede, o resultado aparecerá logo a seguir
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
